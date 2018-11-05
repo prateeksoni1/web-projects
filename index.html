@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RIP</title>
+    <style>
+        * {
+            font-family: Arial,serif;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+<input id="name"><button id="btn">KILL</button>
+<br>
+Hello World
+
+<script>
+    let nameBox = document.getElementById('name')
+
+    let btn = document.getElementById('btn')
+    btn.onclick = function () {
+        let name = nameBox.value
+        window.alert(name)
+    }
+</script>
+</body>
+</html>

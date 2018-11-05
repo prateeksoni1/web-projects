@@ -1,0 +1,28 @@
+body {
+    background-color: #232323;
+}
+
+.square {
+    width: 30%;
+    background-color: purple;   
+    float: left;
+    padding-bottom: 30%;
+    margin: 1.66%;
+}
+
+#container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+
+#navbar {
+    background-color: white;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
